@@ -6,7 +6,6 @@ import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -278,23 +277,12 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget>
                                   ),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        2.0, 2.0, 2.0, 2.0),
-                                    child: AuthUserStreamWidget(
-                                      builder: (context) => Container(
-                                        width: 76.0,
-                                        height: 76.0,
-                                        clipBehavior: Clip.antiAlias,
-                                        decoration: BoxDecoration(
-                                          shape: BoxShape.circle,
-                                        ),
-                                        child: CachedNetworkImage(
-                                          fadeInDuration:
-                                              Duration(milliseconds: 500),
-                                          fadeOutDuration:
-                                              Duration(milliseconds: 500),
-                                          imageUrl: currentUserPhoto,
-                                        ),
-                                      ),
+                                        15.0, 15.0, 15.0, 15.0),
+                                    child: Icon(
+                                      Icons.person_outline,
+                                      color: FlutterFlowTheme.of(context)
+                                          .secondaryText,
+                                      size: 80.0,
                                     ),
                                   ),
                                 ),
