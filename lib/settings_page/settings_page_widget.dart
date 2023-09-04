@@ -334,16 +334,14 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget>
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 8.0, 0.0, 0.0),
-                                            child: AuthUserStreamWidget(
-                                              builder: (context) => Text(
-                                                valueOrDefault<String>(
-                                                  currentUserDisplayName,
-                                                  'Steph Curry',
-                                                ),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .headlineSmall,
+                                            child: Text(
+                                              valueOrDefault<String>(
+                                                settingsPageUsersRecord?.uid,
+                                                'uid',
                                               ),
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .headlineSmall,
                                             ),
                                           ),
                                           Padding(
@@ -351,7 +349,10 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 8.0, 0.0, 0.0),
                                             child: Text(
-                                              currentUserEmail,
+                                              valueOrDefault<String>(
+                                                settingsPageUsersRecord?.email,
+                                                'email',
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodySmall
@@ -389,16 +390,16 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget>
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
                                         setDarkModeSetting(
-                                            context, ThemeMode.dark);
+                                            context, ThemeMode.light);
                                         if (animationsMap[
-                                                'containerOnActionTriggerAnimation2'] !=
+                                                'containerOnActionTriggerAnimation1'] !=
                                             null) {
                                           setState(() =>
-                                              hasContainerTriggered2 = true);
+                                              hasContainerTriggered1 = true);
                                           SchedulerBinding.instance
                                               .addPostFrameCallback((_) async =>
                                                   await animationsMap[
-                                                          'containerOnActionTriggerAnimation2']!
+                                                          'containerOnActionTriggerAnimation1']!
                                                       .controller
                                                       .forward(from: 0.0));
                                         }
@@ -526,16 +527,16 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget>
                                       highlightColor: Colors.transparent,
                                       onTap: () async {
                                         setDarkModeSetting(
-                                            context, ThemeMode.light);
+                                            context, ThemeMode.dark);
                                         if (animationsMap[
-                                                'containerOnActionTriggerAnimation1'] !=
+                                                'containerOnActionTriggerAnimation2'] !=
                                             null) {
                                           setState(() =>
-                                              hasContainerTriggered1 = true);
+                                              hasContainerTriggered2 = true);
                                           SchedulerBinding.instance
                                               .addPostFrameCallback((_) async =>
                                                   await animationsMap[
-                                                          'containerOnActionTriggerAnimation1']!
+                                                          'containerOnActionTriggerAnimation2']!
                                                       .controller
                                                       .forward(from: 0.0));
                                         }
