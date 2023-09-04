@@ -133,9 +133,9 @@ class _NavBarPageState extends State<NavBarPage> {
   @override
   Widget build(BuildContext context) {
     final tabs = {
-      'tablesPage': TablesPageWidget(),
-      'bookmarkPage': BookmarkPageWidget(),
       'questionBank': QuestionBankWidget(),
+      'bookmarkPage': BookmarkPageWidget(),
+      'tablesPage': TablesPageWidget(),
       'settingsPage': SettingsPageWidget(),
       'aboutPage': AboutPageWidget(),
     };
@@ -179,8 +179,8 @@ class _NavBarPageState extends State<NavBarPage> {
                 children: [
                   Icon(
                     currentIndex == 0
-                        ? Icons.grid_view_rounded
-                        : Icons.grid_view_rounded,
+                        ? FontAwesomeIcons.pen
+                        : FontAwesomeIcons.pencilAlt,
                     color: currentIndex == 0
                         ? FlutterFlowTheme.of(context).success
                         : FlutterFlowTheme.of(context).secondaryText,
@@ -188,7 +188,7 @@ class _NavBarPageState extends State<NavBarPage> {
                   ),
                   Text(
                     FFLocalizations.of(context).getText(
-                      'xdxbdj20' /* __ */,
+                      '3ourv2w9' /* __ */,
                     ),
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
@@ -235,8 +235,8 @@ class _NavBarPageState extends State<NavBarPage> {
                 children: [
                   Icon(
                     currentIndex == 2
-                        ? FontAwesomeIcons.pen
-                        : FontAwesomeIcons.pencilAlt,
+                        ? Icons.grid_view_rounded
+                        : Icons.grid_view_rounded,
                     color: currentIndex == 2
                         ? FlutterFlowTheme.of(context).success
                         : FlutterFlowTheme.of(context).secondaryText,
@@ -244,7 +244,7 @@ class _NavBarPageState extends State<NavBarPage> {
                   ),
                   Text(
                     FFLocalizations.of(context).getText(
-                      '3ourv2w9' /* __ */,
+                      'xdxbdj20' /* __ */,
                     ),
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
@@ -263,8 +263,8 @@ class _NavBarPageState extends State<NavBarPage> {
                 children: [
                   Icon(
                     currentIndex == 3
-                        ? Icons.settings_rounded
-                        : Icons.settings_outlined,
+                        ? Icons.account_circle_sharp
+                        : Icons.account_circle_outlined,
                     color: currentIndex == 3
                         ? FlutterFlowTheme.of(context).success
                         : FlutterFlowTheme.of(context).secondaryText,
@@ -272,7 +272,7 @@ class _NavBarPageState extends State<NavBarPage> {
                   ),
                   Text(
                     FFLocalizations.of(context).getText(
-                      'o3dp9tss' /* __ */,
+                      'xxz8nfjm' /* __ */,
                     ),
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(

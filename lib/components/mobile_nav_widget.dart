@@ -81,7 +81,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                 highlightColor: Colors.transparent,
                 onTap: () async {
                   context.pushNamed(
-                    'tablesPage',
+                    'aboutPage',
                     extra: <String, dynamic>{
                       kTransitionInfoKey: TransitionInfo(
                         hasTransition: true,
@@ -169,7 +169,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                 highlightColor: Colors.transparent,
                 onTap: () async {
                   context.pushNamed(
-                    'questionBank',
+                    'tablesPage',
                     extra: <String, dynamic>{
                       kTransitionInfoKey: TransitionInfo(
                         hasTransition: true,

@@ -158,8 +158,6 @@ class _AboutPageWidgetState extends State<AboutPageWidget>
                             Icons.reduce_capacity,
                             color: FlutterFlowTheme.of(context).secondaryText,
                           ),
-                          colorBgFive:
-                              FlutterFlowTheme.of(context).secondaryBackground,
                           textFive: FlutterFlowTheme.of(context).secondaryText,
                         ),
                       ),

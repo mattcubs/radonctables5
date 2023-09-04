@@ -111,13 +111,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   : QuestionBankWidget(),
             ),
             FFRoute(
-              name: 'tablesPage',
-              path: 'tablesPage',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'tablesPage')
-                  : TablesPageWidget(),
-            ),
-            FFRoute(
               name: 'bookmarkPage',
               path: 'bookmarkPage',
               builder: (context, params) => params.isEmpty
@@ -130,21 +123,28 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => EditProfileWidget(),
             ),
             FFRoute(
-              name: 'settingsPage',
-              path: 'settingsPage',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'settingsPage')
-                  : SettingsPageWidget(),
-            ),
-            FFRoute(
               name: 'projectDetails',
               path: 'projectDetails',
               builder: (context, params) => ProjectDetailsWidget(),
             ),
             FFRoute(
+              name: 'tablesPage',
+              path: 'tablesPage',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'tablesPage')
+                  : TablesPageWidget(),
+            ),
+            FFRoute(
               name: 'searchPage',
               path: 'searchPage',
               builder: (context, params) => SearchPageWidget(),
+            ),
+            FFRoute(
+              name: 'settingsPage',
+              path: 'settingsPage',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'settingsPage')
+                  : SettingsPageWidget(),
             ),
             FFRoute(
               name: 'aboutPage',

@@ -461,114 +461,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ms': '__',
     },
   },
-  // tablesPage
-  {
-    '3bi54x5g': {
-      'en': 'Dashboard',
-      'id': 'Dasbor',
-      'ms': 'Papan pemuka',
-    },
-    'nnv46x35': {
-      'en': 'Below is a summary of your teams activity.',
-      'id': 'Di bawah ini adalah ringkasan aktivitas tim Anda.',
-      'ms': 'Di bawah ialah ringkasan aktiviti pasukan anda.',
-    },
-    'jqevo63s': {
-      'en': 'New Customers',
-      'id': 'pelanggan baru',
-      'ms': 'pelanggan baru',
-    },
-    'd0r4w3cc': {
-      'en': '24',
-      'id': '24',
-      'ms': '24',
-    },
-    '8vot9bzj': {
-      'en': 'New Contracts',
-      'id': 'Kontrak Baru',
-      'ms': 'Kontrak Baru',
-    },
-    '463rfkem': {
-      'en': '3,200',
-      'id': '3.200',
-      'ms': '3,200',
-    },
-    'saxskj92': {
-      'en': 'Expired Contracts',
-      'id': 'Kontrak Kedaluwarsa',
-      'ms': 'Kontrak Tamat',
-    },
-    '2wlrr5lg': {
-      'en': '4300',
-      'id': '4300',
-      'ms': '4300',
-    },
-    'kphqz3hi': {
-      'en': 'Projects',
-      'id': 'Proyek',
-      'ms': 'Projek',
-    },
-    'xlzf8qqx': {
-      'en': 'UI Design Team',
-      'id': 'Tim Desain UI',
-      'ms': 'Pasukan Reka Bentuk UI',
-    },
-    'zt3s5l2s': {
-      'en': '4 Members',
-      'id': '4 Anggota',
-      'ms': '4 Ahli',
-    },
-    'puy8obok': {
-      'en': 'Contract Activity',
-      'id': 'Aktivitas Kontrak',
-      'ms': 'Aktiviti Kontrak',
-    },
-    'zlovh0zt': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'g1uaaovn': {
-      'en': 'Customer Activity',
-      'id': 'Aktivitas Pelanggan',
-      'ms': 'Aktiviti Pelanggan',
-    },
-    'e5q3ows1': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'uj7jsxmo': {
-      'en': 'Contract Activity',
-      'id': 'Aktivitas Kontrak',
-      'ms': 'Aktiviti Kontrak',
-    },
-    'hkk2zmjw': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'jkgae0vc': {
-      'en': 'Customer Activity',
-      'id': 'Aktivitas Pelanggan',
-      'ms': 'Aktiviti Pelanggan',
-    },
-    'g4os7kcp': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'y24lcr13': {
-      'en': 'Dashboard',
-      'id': 'Dasbor',
-      'ms': 'Papan pemuka',
-    },
-    'xdxbdj20': {
-      'en': '__',
-      'id': '__',
-      'ms': '__',
-    },
-  },
   // bookmarkPage
   {
     '8jlklje5': {
@@ -606,20 +498,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'id': 'Status',
       'ms': 'Status',
     },
-    'yxvgnrrg': {
-      'en': 'Alex Smith',
-      'id': 'Alex Smith',
-      'ms': 'Alex Smith',
-    },
     'hbvgee7f': {
       'en': 'user@domainname.com',
       'id': 'pengguna@namadomain.com',
       'ms': 'pengguna@nama domain.com',
-    },
-    'cxqbcilh': {
-      'en': 'user@domain.com',
-      'id': 'pengguna@domain.com',
-      'ms': 'pengguna@domain.com',
     },
     'mv4x7wmh': {
       'en': 'Status',
@@ -765,49 +647,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ms': '',
     },
   },
-  // settingsPage
-  {
-    'qrxn5crt': {
-      'en': 'My Profile',
-      'id': 'Profil saya',
-      'ms': 'Profil saya',
-    },
-    'v1hh7jlp': {
-      'en': 'Switch to Dark Mode',
-      'id': 'Beralih ke Mode Gelap',
-      'ms': 'Tukar kepada Mod Gelap',
-    },
-    'sh7q15l6': {
-      'en': 'Switch to Light Mode',
-      'id': 'Beralih ke Mode Cahaya',
-      'ms': 'Tukar kepada Mod Cahaya',
-    },
-    'fyxsf6vn': {
-      'en': 'Account Settings',
-      'id': 'Pengaturan akun',
-      'ms': 'Tetapan Akaun',
-    },
-    'h43llaan': {
-      'en': 'Change Password',
-      'id': 'Ganti kata sandi',
-      'ms': 'Tukar kata laluan',
-    },
-    'b1lw0hfu': {
-      'en': 'Edit Profile',
-      'id': 'Sunting profil',
-      'ms': 'Sunting profil',
-    },
-    'abqf147c': {
-      'en': 'Log Out',
-      'id': 'Keluar',
-      'ms': 'Log keluar',
-    },
-    'o3dp9tss': {
-      'en': '__',
-      'id': '__',
-      'ms': '__',
-    },
-  },
   // projectDetails
   {
     'olng4jgs': {
@@ -887,6 +726,114 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ms': 'Rumah',
     },
   },
+  // tablesPage
+  {
+    '3bi54x5g': {
+      'en': 'Dashboard',
+      'id': 'Dasbor',
+      'ms': 'Papan pemuka',
+    },
+    'nnv46x35': {
+      'en': 'Below is a summary of your teams activity.',
+      'id': 'Di bawah ini adalah ringkasan aktivitas tim Anda.',
+      'ms': 'Di bawah ialah ringkasan aktiviti pasukan anda.',
+    },
+    'jqevo63s': {
+      'en': 'New Customers',
+      'id': 'pelanggan baru',
+      'ms': 'pelanggan baru',
+    },
+    'd0r4w3cc': {
+      'en': '24',
+      'id': '24',
+      'ms': '24',
+    },
+    '8vot9bzj': {
+      'en': 'New Contracts',
+      'id': 'Kontrak Baru',
+      'ms': 'Kontrak Baru',
+    },
+    '463rfkem': {
+      'en': '3,200',
+      'id': '3.200',
+      'ms': '3,200',
+    },
+    'saxskj92': {
+      'en': 'Expired Contracts',
+      'id': 'Kontrak Kedaluwarsa',
+      'ms': 'Kontrak Tamat',
+    },
+    '2wlrr5lg': {
+      'en': '4300',
+      'id': '4300',
+      'ms': '4300',
+    },
+    'kphqz3hi': {
+      'en': 'Projects',
+      'id': 'Proyek',
+      'ms': 'Projek',
+    },
+    'xlzf8qqx': {
+      'en': 'UI Design Team',
+      'id': 'Tim Desain UI',
+      'ms': 'Pasukan Reka Bentuk UI',
+    },
+    'zt3s5l2s': {
+      'en': '4 Members',
+      'id': '4 Anggota',
+      'ms': '4 Ahli',
+    },
+    'puy8obok': {
+      'en': 'Contract Activity',
+      'id': 'Aktivitas Kontrak',
+      'ms': 'Aktiviti Kontrak',
+    },
+    'zlovh0zt': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'g1uaaovn': {
+      'en': 'Customer Activity',
+      'id': 'Aktivitas Pelanggan',
+      'ms': 'Aktiviti Pelanggan',
+    },
+    'e5q3ows1': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'uj7jsxmo': {
+      'en': 'Contract Activity',
+      'id': 'Aktivitas Kontrak',
+      'ms': 'Aktiviti Kontrak',
+    },
+    'hkk2zmjw': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'jkgae0vc': {
+      'en': 'Customer Activity',
+      'id': 'Aktivitas Pelanggan',
+      'ms': 'Aktiviti Pelanggan',
+    },
+    'g4os7kcp': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'y24lcr13': {
+      'en': 'Dashboard',
+      'id': 'Dasbor',
+      'ms': 'Papan pemuka',
+    },
+    'xdxbdj20': {
+      'en': '__',
+      'id': '__',
+      'ms': '__',
+    },
+  },
   // searchPage
   {
     'ao46xsuv': {
@@ -913,6 +860,49 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Home',
       'id': 'Rumah',
       'ms': 'Rumah',
+    },
+  },
+  // settingsPage
+  {
+    'k2qrkcql': {
+      'en': 'My Profile',
+      'id': 'Profil saya',
+      'ms': 'Profil saya',
+    },
+    '348yqo20': {
+      'en': 'Switch to Dark Mode',
+      'id': 'Beralih ke Mode Gelap',
+      'ms': 'Tukar kepada Mod Gelap',
+    },
+    '2kqgoe4k': {
+      'en': 'Switch to Light Mode',
+      'id': 'Beralih ke Mode Cahaya',
+      'ms': 'Tukar kepada Mod Cahaya',
+    },
+    'ykqc4q7p': {
+      'en': 'Account Settings',
+      'id': 'Pengaturan akun',
+      'ms': 'Tetapan Akaun',
+    },
+    '1e995tpv': {
+      'en': 'Change Password',
+      'id': 'Ganti kata sandi',
+      'ms': 'Tukar kata laluan',
+    },
+    's4q8ur25': {
+      'en': 'Edit Profile',
+      'id': 'Sunting profil',
+      'ms': 'Sunting profil',
+    },
+    'r514odka': {
+      'en': 'Log Out',
+      'id': 'Keluar',
+      'ms': 'Log keluar',
+    },
+    'xxz8nfjm': {
+      'en': '__',
+      'id': '',
+      'ms': '',
     },
   },
   // aboutPage

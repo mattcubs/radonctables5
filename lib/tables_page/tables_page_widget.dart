@@ -1,3 +1,4 @@
+import '/backend/backend.dart';
 import '/components/web_nav_widget.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -1429,6 +1430,74 @@ class _TablesPageWidgetState extends State<TablesPageWidget>
                                       ),
                                     ),
                                   ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Align(
+                            alignment: AlignmentDirectional(0.0, 0.0),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                StreamBuilder<List<RadonctablesRecord>>(
+                                  stream: queryRadonctablesRecord(
+                                    queryBuilder: (radonctablesRecord) =>
+                                        radonctablesRecord.orderBy('idAlt'),
+                                    limit: 50,
+                                  ),
+                                  builder: (context, snapshot) {
+                                    // Customize what your widget looks like when it's loading.
+                                    if (!snapshot.hasData) {
+                                      return Center(
+                                        child: SizedBox(
+                                          width: 50.0,
+                                          height: 50.0,
+                                          child: SpinKitFadingCube(
+                                            color: Color(0xFF60B7A2),
+                                            size: 50.0,
+                                          ),
+                                        ),
+                                      );
+                                    }
+                                    List<RadonctablesRecord>
+                                        listViewRadonctablesRecordList =
+                                        snapshot.data!;
+                                    return ListView.builder(
+                                      padding: EdgeInsets.zero,
+                                      shrinkWrap: true,
+                                      scrollDirection: Axis.vertical,
+                                      itemCount:
+                                          listViewRadonctablesRecordList.length,
+                                      itemBuilder: (context, listViewIndex) {
+                                        final listViewRadonctablesRecord =
+                                            listViewRadonctablesRecordList[
+                                                listViewIndex];
+                                        return ListTile(
+                                          title: Text(
+                                            listViewRadonctablesRecord.idAlt,
+                                            style: FlutterFlowTheme.of(context)
+                                                .titleLarge,
+                                          ),
+                                          subtitle: Text(
+                                            listViewRadonctablesRecord
+                                                .theCitation,
+                                            style: FlutterFlowTheme.of(context)
+                                                .labelMedium,
+                                          ),
+                                          trailing: Icon(
+                                            Icons.arrow_forward_ios,
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondaryText,
+                                            size: 20.0,
+                                          ),
+                                          tileColor:
+                                              FlutterFlowTheme.of(context)
+                                                  .secondaryBackground,
+                                          dense: false,
+                                        );
+                                      },
+                                    );
+                                  },
                                 ),
                               ],
                             ),

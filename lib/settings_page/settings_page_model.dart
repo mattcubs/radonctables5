@@ -1,4 +1,5 @@
 import '/auth/firebase_auth/auth_util.dart';
+import '/backend/backend.dart';
 import '/components/command_palette_widget.dart';
 import '/components/web_nav_widget.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
